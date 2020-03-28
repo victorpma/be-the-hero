@@ -20,8 +20,7 @@ function Profile() {
             headers: {
                 Authorization: ongId,
             }
-        }).then(response => {
-            console.log(response.data);
+        }).then(response => {            
             setIncidents(response.data);
         })
     }, [ongId]);

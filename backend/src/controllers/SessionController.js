@@ -12,6 +12,6 @@ module.exports = {
         if (!ong)
             return response.status(401).json({ error: 'Não foi encontrada ONG com este ID!' });
 
-        return response.json({ ong });
+        return response.json({ name: ong.name });
     }
 }

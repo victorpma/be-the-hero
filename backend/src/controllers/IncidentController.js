@@ -7,8 +7,6 @@ module.exports = {
 
         const [count] = await connection('incidents').count();
 
-        console.log(count);
-
         const incidents = await connection('incidents')
             .join('ongs', 'ongs.id', '=', 'incidents.id_ong')
             .limit(5)
@@ -45,10 +43,14 @@ module.exports = {
         const { id } = request.params;
         const id_ong = request.headers.authorization;
 
+        console.log(id_ong);
+
         const incident = await connection('incidents')
             .where('id', id)
             .select('id_ong')
             .first();
+
+        if (!incident) return response.status(404).json({ error: 'Incidente não encontrado!' });
 
         if (incident.id_ong !== id_ong)
             return response.status(401).json({ error: 'Operação não permitida!' });

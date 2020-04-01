@@ -1,13 +1,9 @@
-
-
 <h4 align="center">
   <img class="text-center" src="/mobile/src/assets/logo@2x.png"/>
-</h4
+</h4>
 
-## About this Project
+## 🦸‍ About this Project
 **Be The Hero** is a project it consists in help financilly chariry institutions.
-
-## Why?
 
 ## :muscle: Functionalities
 * Register ONG - it will be used to register incidents
@@ -18,7 +14,7 @@
 * Send e-mail to ONG
 * Send whatsapp to ONG
 
-## Getting Start
+## :coffee: Getting Start
 
 ## :rocket: Built With
 

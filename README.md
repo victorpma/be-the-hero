@@ -6,42 +6,52 @@
 **Be The Hero** is a project it consists in help financilly chariry institutions.
 
 ## :muscle: Functionalities
-* Register ONG - it will be used to register incidents
+* Register ONG
 * Register Incident
 * Get information of incidents specif ONG
-* Get information of all incidents to users
-* Delete incidents
+* Get information of all incidents
+* Delete incident
 * Send e-mail to ONG
 * Send whatsapp to ONG
 
 ## :coffee: Getting Start
 
+### Installing
+#### Cloning the Repository
+```$ git clone https://github.com/victorpma/be-the-hero.git```
+
+#### Installing the dependencies
+
+```$ yarn```
+<br>or<br>
+```$ npm install```
+
 ## :rocket: Built With
 
 ### BackEnd
-- [Node.js](https://nodejs.org/en/) - Build the server
-- [nodemon](https://www.npmjs.com/package/nodemon) - Automatically restart apllication
-- [celebrate](https://www.npmjs.com/package/celebrate) - Validatores of inputs using middleware
-- [cross-env](https://www.npmjs.com/package/cross-env) - Use enviroment variables
-- [express](https://www.npmjs.com/package/express) - Create routes in apllication
-- [knex.js](http://knexjs.org/) - SQL query builder
-- [Sqlite3](https://www.sqlite.org/index.html) - Database
-- [JEST](https://jestjs.io/pt-BR/) - Tests
-- [super-test](https://www.npmjs.com/package/supertest) - Test HTTP request
+- [Node.js](https://nodejs.org/en/)
+- [nodemon](https://www.npmjs.com/package/nodemon)
+- [celebrate](https://www.npmjs.com/package/celebrate)
+- [cross-env](https://www.npmjs.com/package/cross-env)
+- [express](https://www.npmjs.com/package/express)
+- [knex.js](http://knexjs.org/)
+- [Sqlite3](https://www.sqlite.org/index.html)
+- [JEST](https://jestjs.io/pt-BR/)
+- [super-test](https://www.npmjs.com/package/supertest)
 
 ### FrontEnd
-- [React]()
-- [Axios]()
-- [react-dom]()
-- [react-icons]()
-- [react-router-dom]()
-- [react-scripts]()
+- [React](https://pt-br.reactjs.org/)
+- [axios](https://www.npmjs.com/package/axios)
+- [react-dom](https://www.npmjs.com/package/react-dom)
+- [react-icons](https://www.npmjs.com/package/react-icons)
+- [react-router-dom](https://www.npmjs.com/package/react-router-dom)
+- [react-scripts](https://www.npmjs.com/package/react-scripts)
 
 ### Mobile
-- [react-native]()
-- [react-navigation]()
-- [axios]()
-- [expo]()
-- [expo-constants]()
-- [expo-mail-compose]()
-- [intl]()
+- [react-native](https://reactnative.dev/)
+- [react-navigation](https://reactnavigation.org/)
+- [axios](https://www.npmjs.com/package/axios)
+- [expo](https://expo.io/)
+- [expo-constants](https://docs.expo.io/versions/latest/sdk/constants/)
+- [expo-mail-compose](https://docs.expo.io/versions/latest/sdk/mail-composer/)
+- [intl](https://www.npmjs.com/package/react-native-intl)

@@ -5,6 +5,8 @@
 ## 🦸‍ About this Project
 **Be The Hero** is a project it consists in help financilly chariry institutions.
 
+![Screenshot Be The Hero](https://i.ibb.co/YQZhHK7/Untitled-1.jpg)
+
 ## :muscle: Functionalities
 * Register ONG
 * Register Incident

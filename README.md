@@ -5,7 +5,7 @@
 ## 🦸‍ About this Project
 **Be The Hero** is a project it consists in help financilly chariry institutions.
 
-![Screenshot Be The Hero](https://drive.google.com/open?id=1jhl6QhEuZOKabdxectHM1Q5WC7L5Pslx)
+![Screenshot Be The Hero](https://i.ibb.co/YQZhHK7/Untitled-1.jpg)
 If you want see all screens of the app, they are [here](https://drive.google.com/drive/folders/1DCqbH0Zkeik-FfV4yhFR3LMHtdhhU6SO).
 
 ## :muscle: Functionalities
